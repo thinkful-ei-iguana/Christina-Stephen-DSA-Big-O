@@ -56,6 +56,7 @@ operations.
 
 */
 
+//12-1 O(n)
 function countSheep(num) {
   for (let i = 0; i <= num; --num) {
     if (num === 0) {
@@ -65,4 +66,17 @@ function countSheep(num) {
     }
   }
 }
-countSheep(3);
+// countSheep(3);
+
+//12-2
+function powerCalculator(num, exp) {
+  if (exp <= 0) {
+    return 'exponent should be >= 0';
+  } else if (num === 1) {
+    return '1'
+  } else {
+    return Math.pow(num, exp);
+  }
+}
+
+console.log(powerCalculator(10, 2));
