@@ -80,3 +80,16 @@ function powerCalculator(num, exp) {
 }
 
 console.log(powerCalculator(10, 2));
+
+
+//12-3 o(n)
+function reverseString(str)  {
+  let newString = ' ';
+  for (let i = str.length -1; i >= 0; i--) {
+    newString += str[i];
+  }
+  return newString;
+
+}
+
+console.log(reverseString(''));
