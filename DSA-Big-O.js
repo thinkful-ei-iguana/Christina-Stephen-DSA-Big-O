@@ -49,4 +49,9 @@ The complexity of this algorigthm is proportional to its input size.
 depend upon the size of the imput and it has a fixed number of 
 operations.
 
+10) This algorithm checks if a number is prime. This
+ algorithm has a Big O notation of O(n). It only goes
+ through a set number of operations based on the original
+ input. 
+
 */
