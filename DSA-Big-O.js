@@ -79,7 +79,7 @@ function powerCalculator(num, exp) {
   }
 }
 
-console.log(powerCalculator(10, 2));
+// console.log(powerCalculator(10, 2));
 
 
 //12-3 o(n)
@@ -92,7 +92,7 @@ function reverseString(str)  {
 
 }
 
-console.log(reverseString(''));
+// console.log(reverseString(''));
 
 //12-4 O(n)
 function triangular(num) {
@@ -107,7 +107,7 @@ function triangular(num) {
   }
 }
 
-console.log(triangular(4));
+// console.log(triangular(4));
 
 //12-5 O(n)
 function split(str, splitter) {
@@ -119,4 +119,21 @@ function split(str, splitter) {
   }
   return arr;
 }
-console.log(split('Give/Me/Death/', '/'));
+// console.log(split('Give/Me/Death/', '/'));
+
+//12-6 O(n)
+function fib(num) {
+  let result = [];
+  for (let i = 1; i <= num; i++) {
+    if (i === 1) {
+      result.push(0);
+    } else if (i === 2) {
+      result.push(1);
+    } else {
+      result.push(result[i - 2] + result[i - 3]);
+    }
+  }
+  return result;
+}
+
+console.log(fib(7));
