@@ -26,8 +26,16 @@
  are in the input.
  
 5) The Big O notation for this algorithm would be O(n). Only ONE item 
-is being seached for but we do not know the length of the array.  This 
-would mean it would continue to iterate through the loop until 
-the correct item is located then return the index number.
+ is being seached for but we do not know the length of the array.  This 
+ would mean it would continue to iterate through the loop until 
+ the correct item is located then return the index number.
+
+6) The Big O notation for this algorithm would be O(n^2).
+ This is due to the nesting of the for loops causing the
+ operations to grow exponentially for each iteration of
+ the original loop.
+
+7) 
+
 
 */
