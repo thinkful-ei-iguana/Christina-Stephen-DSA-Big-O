@@ -57,9 +57,12 @@ operations.
 */
 
 function countSheep(num) {
-  for (let i = 0; i < num; i++) {
-    return `${num} Another sheep jumps over the fence`;
+  for (let i = 0; i <= num; --num) {
+    if (num === 0) {
+      console.log('All sheep jumped over the fence');
+    } else {
+      console.log(`${num} Another sheep jumps over the fence`);
+    }
   }
 }
-
 countSheep(3);
