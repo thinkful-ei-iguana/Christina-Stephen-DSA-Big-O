@@ -108,3 +108,15 @@ function triangular(num) {
 }
 
 console.log(triangular(4));
+
+//12-5 O(n)
+function split(str, splitter) {
+  const arr = [];
+  while (str.includes(splitter)) {
+    const i = str.indexOf(splitter);
+    arr.push(str.slice(0, i));
+    str = str.slice(i + 1);
+  }
+  return arr;
+}
+console.log(split('Give/Me/Death/', '/'));
