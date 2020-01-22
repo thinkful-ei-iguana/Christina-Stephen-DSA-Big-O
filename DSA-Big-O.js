@@ -95,7 +95,6 @@ function reverseString(str)  {
 console.log(reverseString(''));
 
 //12-4 O(n)
-
 function triangular(num) {
   if (num <= 0) {
     return 'Number must be higher than 0';
