@@ -14,13 +14,17 @@
  there will only ever be one operation running each time
  you call the function.
 
- 3) This solution would have a Big O notation of O(n^2) because
+3) This solution would have a Big O notation of O(n^2) because
  there is a set (2) nested loops. The outer loop will run with the 
  inner loop (n) times. Each time, the inner loop will run (n) times.
  (If there was ANOTHER nested loop the complexity would then be
-    o(n^3))
+ o(n^3))
 
- 4)   
-
+4) The Big O notation for this algorithm would be O(n).
+ There is only one for loop meaning the number of
+ operations is directly linked to how many pieces of data
+ are in the input.
+ 
+5)
 
 */
