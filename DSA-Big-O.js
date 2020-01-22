@@ -55,3 +55,11 @@ operations.
  input. 
 
 */
+
+function countSheep(num) {
+  for (let i = 0; i < num; i++) {
+    return `${num} Another sheep jumps over the fence`;
+  }
+}
+
+countSheep(3);
