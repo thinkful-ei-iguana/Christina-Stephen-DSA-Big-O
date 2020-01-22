@@ -56,6 +56,9 @@ operations.
 
 */
 
+
+
+
 //12-1 O(n)
 function countSheep(num) {
   for (let i = 0; i <= num; --num) {
@@ -67,6 +70,7 @@ function countSheep(num) {
   }
 }
 // countSheep(3);
+
 
 //12-2 O(n)
 function powerCalculator(num, exp) {
@@ -150,3 +154,30 @@ function factorialize(num) {
 }
 console.log(factorialize(5));
 
+/*
+13-1  The Big O notation for this would be O(n). The algorithm
+complexity is proportional to its input. 
+
+13-2 The Big O notation for this would be O(n).  
+
+13-3 The Big O notation for this would be O(n). It goes through
+the function once.
+
+13-4 The Big O notation for this would be O(n). This is linear.
+
+13-5 The Big O notation for this would be O(n).
+
+13-6 The Big O notation for this would be O(n).
+
+13-7 The Big O notation for this would be O(n).
+
+13-8 The Big O notation for this would be O(n) or O(log(n)).
+
+13-9 The Big O notation for this would be O(n).
+
+13-10 The Big O notation for this would be O(n).
+
+13-11 The Big O notation for this would be O(n).
+
+13-12 The Big O notation for this would be O(n).
+*/
