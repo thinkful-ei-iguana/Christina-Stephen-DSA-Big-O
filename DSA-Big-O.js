@@ -45,6 +45,8 @@ The complexity of this algorigthm is proportional to its input size.
  to find the result in the sample it grabs another sample
  group to check.
 
-9)
+9) The Big O notation for this would be O(1).  The run time doesn't
+depend upon the size of the imput and it has a fixed number of 
+operations.
 
 */
