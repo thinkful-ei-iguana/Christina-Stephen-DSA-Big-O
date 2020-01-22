@@ -35,7 +35,10 @@
  operations to grow exponentially for each iteration of
  the original loop.
 
-7) 
+7) The Big O notation for this algorithm would be o(n). This algorithm
+uses a for loop to iterate incrementally until it hits a given number.
+The complexity of this algorigthm is proportional to its input size.
+
 
 
 */
