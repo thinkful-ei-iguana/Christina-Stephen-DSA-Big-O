@@ -68,12 +68,12 @@ function countSheep(num) {
 }
 // countSheep(3);
 
-//12-2
+//12-2 O(n)
 function powerCalculator(num, exp) {
   if (exp <= 0) {
     return 'exponent should be >= 0';
   } else if (num === 1) {
-    return '1'
+    return '1';
   } else {
     return Math.pow(num, exp);
   }
