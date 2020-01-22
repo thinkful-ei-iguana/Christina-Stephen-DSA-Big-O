@@ -39,6 +39,12 @@
 uses a for loop to iterate incrementally until it hits a given number.
 The complexity of this algorigthm is proportional to its input size.
 
+8) This algorithms Big O notation would be O(log n).The
+ algorithm breaks the problem down into smaller sample sizes
+ before running it's search on the sample. If it is unable
+ to find the result in the sample it grabs another sample
+ group to check.
 
+9)
 
 */
