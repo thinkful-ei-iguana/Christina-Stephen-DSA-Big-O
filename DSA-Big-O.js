@@ -93,3 +93,19 @@ function reverseString(str)  {
 }
 
 console.log(reverseString(''));
+
+//12-4 O(n)
+
+function triangular(num) {
+  if (num <= 0) {
+    return 'Number must be higher than 0';
+  } else {
+    let count = 0;
+    for (let i = 0; i <= num; i++) {
+      count += i;
+    }
+    return count;
+  }
+}
+
+console.log(triangular(4));
