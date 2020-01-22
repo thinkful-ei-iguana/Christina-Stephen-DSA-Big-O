@@ -25,6 +25,9 @@
  operations is directly linked to how many pieces of data
  are in the input.
  
-5)
+5) The Big O notation for this algorithm would be O(n). Only ONE item 
+is being seached for but we do not know the length of the array.  This 
+would mean it would continue to iterate through the loop until 
+the correct item is located then return the index number.
 
 */
